@@ -10,14 +10,11 @@ import javax.swing.JOptionPane;
 import java.awt.Font;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
-import javax.swing.JPopupMenu;
-import java.awt.Component;
-import java.awt.event.MouseAdapter;
-import java.awt.event.MouseEvent;
+
 import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileOutputStream;
-import java.io.FileWriter;
+
 import java.io.IOException;
 import java.io.OutputStreamWriter;
 import java.io.Writer;
@@ -33,6 +30,8 @@ import com.google.cloud.speech.v1p1beta1.SpeechRecognitionResult;
 
 import java.awt.TextArea;
 
+
+//This is the Class to Launch the Whole Application
 public class NewFrame {
 	public String set;
 	public String set2;
@@ -145,13 +144,13 @@ public class NewFrame {
 		JLabel lblSelectedFile = new JLabel("Step 1:");
 		lblSelectedFile.setForeground(new Color(255, 215, 0));
 		lblSelectedFile.setFont(new Font("Unispace", Font.PLAIN, 18));
-		lblSelectedFile.setBounds(25, 60, 160, 75);
+		lblSelectedFile.setBounds(10, 74, 160, 75);
 		frame.getContentPane().add(lblSelectedFile);
 		
 		JLabel lblOutputLocation = new JLabel("Step 2:");
 		lblOutputLocation.setForeground(new Color(255, 215, 0));
 		lblOutputLocation.setFont(new Font("Unispace", Font.PLAIN, 18));
-		lblOutputLocation.setBounds(25, 146, 78, 75);
+		lblOutputLocation.setBounds(10, 146, 78, 75);
 		frame.getContentPane().add(lblOutputLocation);
 		
 		JTextArea txtrUseFfmpegTo = new JTextArea();
@@ -170,8 +169,8 @@ public class NewFrame {
 		
 		JLabel lblNewLabel = new JLabel("Step 3:");
 		lblNewLabel.setForeground(new Color(255, 215, 0));
-		lblNewLabel.setFont(new Font("Dialog", Font.PLAIN, 18));
-		lblNewLabel.setBounds(25, 242, 88, 53);
+		lblNewLabel.setFont(new Font("Unispace", Font.PLAIN, 18));
+		lblNewLabel.setBounds(10, 243, 88, 53);
 		frame.getContentPane().add(lblNewLabel);
 		
 		JTextArea txtrInputTheExact = new JTextArea();

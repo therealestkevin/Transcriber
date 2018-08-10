@@ -27,7 +27,7 @@ import javax.swing.JTextArea;
 import javax.swing.JTextField;
 import javax.swing.JTextPane;
 import java.awt.TextArea;
-
+//Application Used in order to Transcribe audio files shorter than 1 minute without the need to upload to Google Cloud Storage
 public class Frame1 {
 	public String set;
 	public String set2;
