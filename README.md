@@ -20,7 +20,11 @@ Under the "user variables" section, click new and for Variable Name, put in "Pat
 
 ![3](https://user-images.githubusercontent.com/30887959/43978759-39d9f9ba-9c9d-11e8-8249-1f12bb231795.png)
 
-While doing this, you will need to add another variable called "GOOGLE_APPLICATION_CREDENTIALS". For the variable value, you will need to download the "Transcriber-1f087732c43a.json" file that I have attached to this email. Now that you have downloaded the file, put the location of the downloaded file as the variable value. For example, it could be: "C:\Users\kevinx20\Desktop\Test\Transcriber-1f087732c43a.json"
+While doing this, you will need to add another variable called "GOOGLE_APPLICATION_CREDENTIALS". For the variable value, create a Google API Services account and then download a Google Applications Credentials files from Google. The instructions to this are located here:
+
+https://cloud.google.com/docs/authentication/production
+
+Now that you have downloaded the file, put the location of the downloaded file as the variable value. For example, it could be: "C:\Users\kevinx20\Desktop\Test\Transcriber-1f087732c43a.json"
 
 ![4](https://user-images.githubusercontent.com/30887959/43978769-4240b616-9c9d-11e8-85f2-b038917b9bbc.png)
 
@@ -56,7 +60,7 @@ https://console.cloud.google.com/storage/transcriberproject/
 ![8](https://user-images.githubusercontent.com/30887959/43978800-5d9dee60-9c9d-11e8-9be5-6ca07890ef2d.png)
 
 
-Here, there are options to upload files. You want to upload the .flac file you just converted. In the picture above, I uploaded a file called "output2.flac" to the bucket. Once you have done that, you can finally open up the .jar application that I have attached to this email. Download the jar file and simply run it by double clicking. You should be directed to a screen like this:
+Here, there are options to upload files. You want to upload the .flac file you just converted. In the picture above, I uploaded a file called "output2.flac" to the bucket. Once you have done that, you can finally open up the .jar application that I have attached to repository under the name of "TranscriptionApplication" or you can open up the classes and download those if you are interested in the project. Anyway, download the jar file and simply run it by double clicking. You should be directed to a screen like this:
 
 ![9](https://user-images.githubusercontent.com/30887959/43978807-6595d132-9c9d-11e8-858e-3e1efd02a24f.png)
 
